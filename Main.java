@@ -4,6 +4,8 @@ class Main {
 
     PezDispenser dispenser1 = new PezDispenser("Rick", "Yellow", true);
 
+    System.out.println("A Pez dispenser's max candy capacity is "
+    + dispenser1.getMaxCandy() + ".");
     System.out.println("This dispenser is " + dispenser1.getTheCharacter() +
     ", the color is " + dispenser1.getColor() + " and the in production status is:"
     + dispenser1.getInProduction());
